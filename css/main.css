@@ -1,0 +1,103 @@
+html { 
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+ } 
+
+ .wholebody {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:#d8eeec;
+ }
+ 
+ 
+ body{
+    background-color:#aad4cf;
+ }
+
+/* css for heading part  */
+
+.Header img {
+    position: relative;
+    width:1000px;
+}
+
+.Header h1 {
+    color: white;
+    position: absolute ;
+    top: 200px;
+    left:500px;
+    
+} 
+
+/* css for nav part */
+
+nav{
+    position: absolute ;  
+    margin-bottom: 100px;
+    border: 5px;
+}
+
+nav li{
+    display: inline;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+
+
+
+  
+
+/* css for article part */
+
+.article {
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.article img {
+   float: left;
+   width: 190px;
+   height: 150px;
+   margin: 10px;
+
+}
+
+.article h3 {
+    margin-top: 25px;
+    display:flexbox;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 300;
+}
+/* css for facts */
+
+.facts h3 {
+    font-size: 1.17em;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css for form  */
+
+form {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 50px;
+}
+
+form h3 {
+    font: 1em sans-serif;
+    font-weight: 11;
+}
